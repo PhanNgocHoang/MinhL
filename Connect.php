@@ -4,7 +4,7 @@ $userName = 'roooo0t';
 $passWord = '12345678';
 $port = '3306';
 $databaseName = 'heroku1';
-$connect = new mysqli($hostName. $port, $userName, $passWord, $databaseName);
+$connect = new mysqli($hostName, $port, $userName, $passWord, $databaseName);
 if(!$connect)
 {
     echo "connect that bai";
