@@ -21,7 +21,7 @@
    {
         $hav = "Book & Car";
    }
-   $sql = "INSERT INTO `registercourse`(`id`, `studentname`, `course`, `dd`, `gender`, `fav`) VALUES ('','$name','$course','$date','$gender','$hav')";
+   $sql = "INSERT INTO `RegisterCourse`(`id`, `studentname`, `course`, `dob`, `gender`, `fav`) VALUES ('', '$name', '$course', '$date', '$gender', '$hav')";
  ?>
  	<h2 style="margin: 25%">Thank you <?php echo $name . " , date: " . $date . ", Gender: " . $gender . " , Fav: ". $hav ; ?>
  	for registering <?php echo $course; ?></h2>
