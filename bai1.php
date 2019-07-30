@@ -6,7 +6,7 @@
 <body>
 	<form action="doRegister.php" method = "post" style="margin-left: 40%">
 		<p style="font-size: 60px; margin-left: 15% ">Register</p>
-		<table border="0" width="50%" style="font-size: 30px">
+		<table border ="0" width="50%" style="font-size: 30px">
 			<tr>
 				<td>Your Name</td>
 				<td><input type="text" name="Name"></td>

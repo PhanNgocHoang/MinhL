@@ -21,7 +21,7 @@
    {
         $hav = "Book & Car";
    }
-   $sql = "INSERT INTO `registercourse`(`id`, `studentname`, `course`, `dob`, `gender`, `fav`) VALUES ('','$name','$course','$date','$gender','$hav')";
+   $sql = "INSERT INTO `RegisterCourse`(`studentname`, `course`, `dob`, `gender`, `fav`) VALUES ('$name','$course','$date','$gender','$hav')";
    if ($connect->query($sql) === TRUE) {
      echo "Thêm dữ liệu thành công";
  } else {
